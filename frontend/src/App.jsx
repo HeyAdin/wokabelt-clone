@@ -1,13 +1,15 @@
-import { useState } from 'react'
 import './App.css'
-import { AppBar } from './components/AppBar'
+import { Cart } from './pages/Cart'
 import { Dashboard } from './pages/Dashboard'
+import { Services } from './pages/Services'
 
 function App() {
 
   return (
-    <div className='bg-gray-500'>
-      <Dashboard />
+    <div className='bg-gray-500 '>
+      {/* <Dashboard /> */}
+      {/* <Services/> */}
+      <Cart/>
     </div>
   )
 }

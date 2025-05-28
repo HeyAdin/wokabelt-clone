@@ -1,6 +1,6 @@
 import wokabeltLogo from '../assets/Wokabelt_logo.png'
 export function AppBar() {
-    return <div className="flex justify-between items-center px-24 py-2  w-screen bg-white font-family">
+    return <div className="flex justify-between items-center px-24 py-2 w-full bg-[#F4F4F4] font-family shadow-md">
         <div className='flex items-center gap-4'>
             <img className='rounded-full overflow-hidden h-12.5 w-12.5' src={wokabeltLogo} alt="" />
             <div className='cursor-pointer'>
