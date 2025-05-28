@@ -70,7 +70,7 @@ export function Cart() {
                         <div className="font-medium text-lg">₹3200</div>
                     </div>
                     <div className="flex gap-2 pt-6 ">
-                        <input className="px-3 py-2 outline-none border  border-gray-400 rounded-sm w-full border-gray-600" type="text" placeholder="Enter promo code" />
+                        <input className="px-3 py-2 outline-none border  border-gray-400 rounded-sm w-full" type="text" placeholder="Enter promo code" />
                         <button className="cursor-pointer border border-gray-400 px-4 text-sm rounded-sm"> Apply</button>
                     </div>
                     <button className="w-full bg-[#007BFF] p-3 text-white rounded-sm mt-6 cursor-pointer">Proceed to checkout</button>
